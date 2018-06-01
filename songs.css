@@ -1,8 +1,36 @@
 body {
-  background: #000000;
+  background: #000;
+  background-image: url("wavesonblack.png");
+  background-size: contain;
   overflow-x: hidden;
   overflow-y:auto;
 }
+
+
+
+/* delete tf out of this:*/
+#me {
+  position: relative;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  top: 150px;
+  transform: rotate(90deg);
+}
+h4{
+  color: white;
+  position: relative;
+  text-align:center;
+  font-size: 24px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+/*delete the above*/
+
+
+
 
 
 #topbar h2 {
@@ -86,10 +114,12 @@ body {
   text-align: left;
   margin-left:20px;
   padding:0px;
-  color: #00F7FF;
+  color: #000;
+  text-shadow: 0 0 1px #00f7ff, 0 0 5px #00f7ff, 0 0 7.5px #00f7ff, 0 0 10px #00f7ff, 0 0 15px #00f7ff, 0 0 15px #00f7ff, 0 0 22px #00f7ff, 0 0 32.5px #00f7ff;
   font-family: 'Titillium Web', sans-serif;
   font-size: 30px;
 }
+
 
 .side-nav{
   border-right: 9px groove #00F7FF;
@@ -172,6 +202,19 @@ p {
   margin-right:auto;
 
 }
+
+
+
+i{
+    color: #000;
+    text-shadow: 0 0 1px #00f7ff, 0 0 5px #00f7ff, 0 0 7.5px #00f7ff, 0 0 10px #00f7ff, 0 0 15px #00f7ff, 0 0 15px #00f7ff, 0 0 22px #00f7ff, 0 0 32.5px #00f7ff;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+
+
+
 
 @media(max-width:900px) {
   h2, #topbar{

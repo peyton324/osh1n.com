@@ -6,6 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Righteous|Cormorant+Garamond|Eczar|Gentium+Basic|Libre+Baskerville|Libre+Franklin|Proza+Libre|Rubik|Taviraj|Trirong|Work+Sans" rel="stylesheet">
   <link rel="stylesheet" href="style.home.css">
 </head>
@@ -16,38 +17,42 @@
 
 
 
-<div id="company" class="jumbotron">
-  <div class="container">
-    <img src="oshin.png" />
+  <div id="company" class="jumbotron">
+    <div class="container">
+      <img src="oshin.png"/>
     </div>
   </div>
-</div>
-
-<div class="container">
-  <div class="gallery">
-    <img src=""
   </div>
-</div>
-
-<div class="container">
-  <div class="col-sm-8">
-  <nav id="topbar" class="navbar">
-    <h2>Home</h2>
-    <ul class="navbar-nav">
-      <li><a href="about-us.html">About Us</a></li>
-      <li><a href="songs.html">Listen to Oshin</a></li>
-      <li><a href="beats.html">Buy Beats</a></li>
-      <li><a href="contact.html">Contact Us</a></li>
-    </ul>
-  </nav>
-</div>
-</div>
 
 
 
-<div class="container">
-    <nav id="sidebarlines" class="navbar">
-    <span class="open-slide">
+  <div class="container">
+    <div id="maintext" class="col-sm-8">
+        <p>Whether you want an <a href="songs.html">0sh1n vibe</a>, <a href="beats.html">purchase a pre-existing 0sh1n beat</a>, or <a href="contact.html">request a custom-made 0sh1n beat</a>, <a href="https://osh1n.com">osh1n.com</a> has wtf you need BOIIIII.</p>
+    </div>
+  </div>
+
+
+
+    <div class="container">
+      <div class="col-sm-8">
+        <nav id="topbar" class="navbar">
+          <h2>Home</h2>
+          <ul class="navbar-nav">
+            <li><a href="about-us.html"><i class="fas fa-info-circle"></i> About Me</a></li>
+            <li><a href="songs.html"><i class="fas fa-headphones"></i> Listen to 0sh1n</a></li>
+            <li><a href="beats.html"><i class="fas fa-music"></i> Buy Beats</a></li>
+            <li><a href="contact.html"><i class="far fa-envelope"></i> Contact Me</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+
+
+    <div class="container">
+      <nav id="sidebarlines" class="navbar">
+        <span class="open-slide">
       <a href="#" onclick="openSlideMenu()">
         <svg width="30" height="30">
             <path d="M0,5 30,5" stroke="#00F7FF" stroke-width="5"/>
@@ -56,33 +61,32 @@
         </svg>
       </a>
     </span>
-</div>
+    </div>
 
 
     </nav>
 
     <div id="side-menu" class="side-nav">
-    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
-      <p id="currentpage">Home</p>
-      <a href="about-us.html">About Us</a>
+      <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+      <p id="currentpage">Home <i class="fas fa-arrow-right"></i></p>
+      <a href="about-us.html">About Me</a>
       <a href="songs.html">Listen to 0sh1n</a>
       <a href="beats.html">Buy Beats</a>
-      <a href="contact.html">Contact Us</a>
+      <a href="contact.html">Contact Me</a>
     </div>
 
 
     <script>
-    function openSlideMenu(){
-      document.getElementById('side-menu').style.width = '250px';
-      document.getElementById('main').style.marginLeft = '250px';
-    }
+      function openSlideMenu() {
+        document.getElementById('side-menu').style.width = '250px';
+        document.getElementById('main').style.marginLeft = '250px';
+      }
 
-    function closeSlideMenu(){
-      document.getElementById('side-menu').style.width = '0';
-      document.getElementById('main').style.marginLeft = '0';
-    }
+      function closeSlideMenu() {
+        document.getElementById('side-menu').style.width = '0';
+        document.getElementById('main').style.marginLeft = '0';
+      }
     </script>
-
 
 
 
