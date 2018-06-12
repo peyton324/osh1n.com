@@ -12,44 +12,37 @@
 </head>
 
 <body>
-
-
-
-
-
-<div id="company" class="jumbotron">
-  <div class="container">
-    <img src="oshin.png" />
+<div>
+<image id="s1cover" src="album.png"></image>
+  <div id="audio" class="container">
+    <div class="col-sm-4">
+      <image id="s1cover2" src="album.png"></image>
+      <audio controls> <p id="songname">Song 1</p>
+        <source src="Jzzz.mp3" type="audio/mpeg">
+      </audio>
     </div>
   </div>
 </div>
 
-<div class="container">
-  <div class="gallery">
-    <img id="me" src="me.JPG"/>
-    <h4>That is one <strong>SEXY</strong> sonebeetch!</h4>
-  </div>
-</div>
-
-<div class="container">
-  <div class="col-sm-8">
-  <nav id="topbar" class="navbar">
-    <h2>0sh1n<br>Songs</h2>
-    <ul class="navbar-nav">
-      <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
-      <li><a href="about-us.html"><i class="fas fa-info-circle"></i> About Me</a></li>
-      <li><a href="beats.html"><i class="fas fa-music"></i> Buy Beats</a></li>
-      <li><a href="contact.html"><i class="far fa-envelope"></i> Contact Me</a></li>
-    </ul>
-  </nav>
-</div>
-</div>
+    <div class="container">
+      <div class="col-sm-8">
+        <nav id="topbar" class="navbar">
+          <h2>0sh1n<br>Songs</h2>
+          <ul class="navbar-nav">
+            <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="about-us.html"><i class="fas fa-info-circle"></i> About Me</a></li>
+            <li><a href="beats.html"><i class="fas fa-music"></i> Buy Beats</a></li>
+            <li><a href="contact.html"><i class="far fa-envelope"></i> Contact Me</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
 
 
 
-<div class="container">
-    <nav id="sidebarlines" class="navbar">
-    <span class="open-slide">
+    <div class="container">
+      <nav id="sidebarlines" class="navbar">
+        <span class="open-slide">
       <a href="#" onclick="openSlideMenu()">
         <svg width="30" height="30">
             <path d="M0,5 30,5" stroke="#00F7FF" stroke-width="5"/>
@@ -58,13 +51,13 @@
         </svg>
       </a>
     </span>
-</div>
+    </div>
 
 
     </nav>
 
     <div id="side-menu" class="side-nav">
-    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+      <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
       <p id="currentpage">Listen to<br> 0sh1n<i class="fas fa-arrow-right"></i></p>
       <a href="index.html">Home</a>
       <a href="about-us.html">About Me</a>
@@ -73,16 +66,19 @@
     </div>
 
 
-    <script>
-    function openSlideMenu(){
-      document.getElementById('side-menu').style.width = '250px';
-      document.getElementById('main').style.marginLeft = '250px';
-    }
 
-    function closeSlideMenu(){
-      document.getElementById('side-menu').style.width = '0';
-      document.getElementById('main').style.marginLeft = '0';
-    }
+
+
+    <script>
+      function openSlideMenu() {
+        document.getElementById('side-menu').style.width = '250px';
+        document.getElementById('main').style.marginLeft = '250px';
+      }
+
+      function closeSlideMenu() {
+        document.getElementById('side-menu').style.width = '0';
+        document.getElementById('main').style.marginLeft = '0';
+      }
     </script>
 
 
@@ -90,12 +86,7 @@
 
 
 
-
-
-
-
-
-</body>
+  </body>
 
 
 </html>

@@ -192,7 +192,13 @@ h1 {
   text-align: center;
 }
 
+#paypalicon1{
+  position: relative;
+  margin-left: 40px;
+  margin-right: auto;
+  top: 300px;
 
+}
 
 @media(max-width:1040px) {
   h2, #topbar{

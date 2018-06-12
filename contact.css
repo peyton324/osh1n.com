@@ -29,7 +29,7 @@ body {
   position: relative;
   display: inline;
   top: 7px;
-  left: 0px;
+  left: 0;
 }
 
 
@@ -184,12 +184,69 @@ i{
     margin-left: 15px;
 }
 
+
+#formofcontact{
+    font-family: 'Righteous';
+    font-size: 52px;
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000;
+    text-shadow: 0 0 1px #00f7ff, 0 0 5px #00f7ff, 0 0 7.5px #00f7ff, 0 0 10px #00f7ff, 0 0 15px #00f7ff, 0 0 15px #00f7ff, 0 0 22px #00f7ff, 0 0 32.5px #00f7ff;
+    top: 20px;
+
+}
+
+/*Contact Form*/
+#namee{
+  color: #00f7ff;
+}
+
+  }
+.form-top{
+  margin-top: 0px;
+}
+.panel{
+  box-shadow:0 0 1px #00f7ff, 0 1px 6px 0 rgba(0,0,0,.12);
+  border-radius: 6px;
+  border: 2px solid #00f7ff;
+}
+
+@-moz-document url-prefix() {
+    .form-control{
+      height: auto;
+    }
+}
+.panel-primary{
+  background-color: #000;
+  color: #000;
+}
+.panel-primary>.panel-heading {
+    color: #000;
+    font-size: 20px;
+    background-color: #000;
+    border-color: #00f7ff;
+}
+.btn-warning{
+  background-color: transparent;
+  border-color: #bdc3c7;
+}
+
+
+
+
+
 @media(max-width:1040px) {
   h2, #topbar{
     display: none;
   }
 
 }
+
+
+
+
 
 @media(min-width:1040px) {
   #sidebarlines{
